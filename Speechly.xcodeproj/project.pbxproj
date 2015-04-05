@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC52F2AA1AD0DDCC00B40E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */; };
+		CC52F2AC1AD0DDCC00B40E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */; };
+		CC52F2AF1AD0DDCC00B40E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2AD1AD0DDCC00B40E34 /* Main.storyboard */; };
+		CC52F2B11AD0DDCC00B40E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */; };
+		CC52F2B41AD0DDCC00B40E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2B21AD0DDCC00B40E34 /* LaunchScreen.xib */; };
+		CC52F2C01AD0DDCC00B40E34 /* SpeechlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2BF1AD0DDCC00B40E34 /* SpeechlyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC52F2BA1AD0DDCC00B40E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC52F29C1AD0DDCC00B40E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC52F2A31AD0DDCC00B40E34;
+			remoteInfo = Speechly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC52F2A41AD0DDCC00B40E34 /* Speechly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speechly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC52F2A81AD0DDCC00B40E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC52F2AE1AD0DDCC00B40E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC52F2B31AD0DDCC00B40E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC52F2B91AD0DDCC00B40E34 /* SpeechlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC52F2BE1AD0DDCC00B40E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC52F2BF1AD0DDCC00B40E34 /* SpeechlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechlyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC52F2A11AD0DDCC00B40E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC52F2B61AD0DDCC00B40E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC52F29B1AD0DDCC00B40E34 = {
+			isa = PBXGroup;
+			children = (
+				CC52F2A61AD0DDCC00B40E34 /* Speechly */,
+				CC52F2BC1AD0DDCC00B40E34 /* SpeechlyTests */,
+				CC52F2A51AD0DDCC00B40E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC52F2A51AD0DDCC00B40E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F2A41AD0DDCC00B40E34 /* Speechly.app */,
+				CC52F2B91AD0DDCC00B40E34 /* SpeechlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC52F2A61AD0DDCC00B40E34 /* Speechly */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */,
+				CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */,
+				CC52F2AD1AD0DDCC00B40E34 /* Main.storyboard */,
+				CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */,
+				CC52F2B21AD0DDCC00B40E34 /* LaunchScreen.xib */,
+				CC52F2A71AD0DDCC00B40E34 /* Supporting Files */,
+			);
+			path = Speechly;
+			sourceTree = "<group>";
+		};
+		CC52F2A71AD0DDCC00B40E34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F2A81AD0DDCC00B40E34 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC52F2BC1AD0DDCC00B40E34 /* SpeechlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F2BF1AD0DDCC00B40E34 /* SpeechlyTests.swift */,
+				CC52F2BD1AD0DDCC00B40E34 /* Supporting Files */,
+			);
+			path = SpeechlyTests;
+			sourceTree = "<group>";
+		};
+		CC52F2BD1AD0DDCC00B40E34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F2BE1AD0DDCC00B40E34 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC52F2A31AD0DDCC00B40E34 /* Speechly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC52F2C31AD0DDCC00B40E34 /* Build configuration list for PBXNativeTarget "Speechly" */;
+			buildPhases = (
+				CC52F2A01AD0DDCC00B40E34 /* Sources */,
+				CC52F2A11AD0DDCC00B40E34 /* Frameworks */,
+				CC52F2A21AD0DDCC00B40E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speechly;
+			productName = Speechly;
+			productReference = CC52F2A41AD0DDCC00B40E34 /* Speechly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC52F2B81AD0DDCC00B40E34 /* SpeechlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC52F2C61AD0DDCC00B40E34 /* Build configuration list for PBXNativeTarget "SpeechlyTests" */;
+			buildPhases = (
+				CC52F2B51AD0DDCC00B40E34 /* Sources */,
+				CC52F2B61AD0DDCC00B40E34 /* Frameworks */,
+				CC52F2B71AD0DDCC00B40E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC52F2BB1AD0DDCC00B40E34 /* PBXTargetDependency */,
+			);
+			name = SpeechlyTests;
+			productName = SpeechlyTests;
+			productReference = CC52F2B91AD0DDCC00B40E34 /* SpeechlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC52F29C1AD0DDCC00B40E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = slidenerd;
+				TargetAttributes = {
+					CC52F2A31AD0DDCC00B40E34 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CC52F2B81AD0DDCC00B40E34 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CC52F2A31AD0DDCC00B40E34;
+					};
+				};
+			};
+			buildConfigurationList = CC52F29F1AD0DDCC00B40E34 /* Build configuration list for PBXProject "Speechly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC52F29B1AD0DDCC00B40E34;
+			productRefGroup = CC52F2A51AD0DDCC00B40E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC52F2A31AD0DDCC00B40E34 /* Speechly */,
+				CC52F2B81AD0DDCC00B40E34 /* SpeechlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC52F2A21AD0DDCC00B40E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52F2AF1AD0DDCC00B40E34 /* Main.storyboard in Resources */,
+				CC52F2B41AD0DDCC00B40E34 /* LaunchScreen.xib in Resources */,
+				CC52F2B11AD0DDCC00B40E34 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC52F2B71AD0DDCC00B40E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC52F2A01AD0DDCC00B40E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52F2AC1AD0DDCC00B40E34 /* ViewController.swift in Sources */,
+				CC52F2AA1AD0DDCC00B40E34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC52F2B51AD0DDCC00B40E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52F2C01AD0DDCC00B40E34 /* SpeechlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC52F2BB1AD0DDCC00B40E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC52F2A31AD0DDCC00B40E34 /* Speechly */;
+			targetProxy = CC52F2BA1AD0DDCC00B40E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC52F2AD1AD0DDCC00B40E34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC52F2AE1AD0DDCC00B40E34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC52F2B21AD0DDCC00B40E34 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC52F2B31AD0DDCC00B40E34 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC52F2C11AD0DDCC00B40E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC52F2C21AD0DDCC00B40E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC52F2C41AD0DDCC00B40E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Speechly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC52F2C51AD0DDCC00B40E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Speechly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC52F2C71AD0DDCC00B40E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speechly.app/Speechly";
+			};
+			name = Debug;
+		};
+		CC52F2C81AD0DDCC00B40E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speechly.app/Speechly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC52F29F1AD0DDCC00B40E34 /* Build configuration list for PBXProject "Speechly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC52F2C11AD0DDCC00B40E34 /* Debug */,
+				CC52F2C21AD0DDCC00B40E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC52F2C31AD0DDCC00B40E34 /* Build configuration list for PBXNativeTarget "Speechly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC52F2C41AD0DDCC00B40E34 /* Debug */,
+				CC52F2C51AD0DDCC00B40E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC52F2C61AD0DDCC00B40E34 /* Build configuration list for PBXNativeTarget "SpeechlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC52F2C71AD0DDCC00B40E34 /* Debug */,
+				CC52F2C81AD0DDCC00B40E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC52F29C1AD0DDCC00B40E34 /* Project object */;
+}
