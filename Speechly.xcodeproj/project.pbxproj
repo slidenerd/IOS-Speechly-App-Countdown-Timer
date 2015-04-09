@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC48430D1AD2621800C03060 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48430C1AD2621800C03060 /* Utils.swift */; };
 		CC52F2AA1AD0DDCC00B40E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */; };
-		CC52F2AC1AD0DDCC00B40E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */; };
+		CC52F2AC1AD0DDCC00B40E34 /* SpeechlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2AB1AD0DDCC00B40E34 /* SpeechlyViewController.swift */; };
 		CC52F2AF1AD0DDCC00B40E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2AD1AD0DDCC00B40E34 /* Main.storyboard */; };
 		CC52F2B11AD0DDCC00B40E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */; };
 		CC52F2B41AD0DDCC00B40E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC52F2B21AD0DDCC00B40E34 /* LaunchScreen.xib */; };
 		CC52F2C01AD0DDCC00B40E34 /* SpeechlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52F2BF1AD0DDCC00B40E34 /* SpeechlyTests.swift */; };
+		CC65F15C1AD17135008F6A45 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65F15B1AD17135008F6A45 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC48430C1AD2621800C03060 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		CC52F2A41AD0DDCC00B40E34 /* Speechly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speechly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC52F2A81AD0DDCC00B40E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC52F2AB1AD0DDCC00B40E34 /* SpeechlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechlyViewController.swift; sourceTree = "<group>"; };
 		CC52F2AE1AD0DDCC00B40E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC52F2B31AD0DDCC00B40E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CC52F2B91AD0DDCC00B40E34 /* SpeechlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC52F2BE1AD0DDCC00B40E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC52F2BF1AD0DDCC00B40E34 /* SpeechlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechlyTests.swift; sourceTree = "<group>"; };
+		CC65F15B1AD17135008F6A45 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				CC52F2A91AD0DDCC00B40E34 /* AppDelegate.swift */,
-				CC52F2AB1AD0DDCC00B40E34 /* ViewController.swift */,
+				CC52F2AB1AD0DDCC00B40E34 /* SpeechlyViewController.swift */,
 				CC52F2AD1AD0DDCC00B40E34 /* Main.storyboard */,
 				CC52F2B01AD0DDCC00B40E34 /* Images.xcassets */,
 				CC52F2B21AD0DDCC00B40E34 /* LaunchScreen.xib */,
 				CC52F2A71AD0DDCC00B40E34 /* Supporting Files */,
+				CC65F15B1AD17135008F6A45 /* Timer.swift */,
+				CC48430C1AD2621800C03060 /* Utils.swift */,
 			);
 			path = Speechly;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC52F2AC1AD0DDCC00B40E34 /* ViewController.swift in Sources */,
+				CC65F15C1AD17135008F6A45 /* Timer.swift in Sources */,
+				CC52F2AC1AD0DDCC00B40E34 /* SpeechlyViewController.swift in Sources */,
 				CC52F2AA1AD0DDCC00B40E34 /* AppDelegate.swift in Sources */,
+				CC48430D1AD2621800C03060 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				CC52F2C51AD0DDCC00B40E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC52F2C61AD0DDCC00B40E34 /* Build configuration list for PBXNativeTarget "SpeechlyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				CC52F2C81AD0DDCC00B40E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
