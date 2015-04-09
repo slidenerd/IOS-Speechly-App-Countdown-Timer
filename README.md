@@ -1,4 +1,4 @@
-<h1>IOS Speechly App</h1>
+<h1>IOS Speechly App: Using Swift</h1>
 <h2>Where can I find videos for this?</h2>
 <p> This app is part of a free series on "How to design + code an awesome app" in collaboration with <a href="http://youtube.com/user/designcourse" target="_blank">DesignCourse</a> and <a href="http://youtube.com/user/slidenerd" target="_blank">slidenerd</a></p> 
 <p>More details on the links to those videos or playlists will be put right here as we add them.</p>
